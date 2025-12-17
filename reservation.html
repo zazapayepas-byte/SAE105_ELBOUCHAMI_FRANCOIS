@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Réservation VP Tours</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+	<body>
+
+		<header>
+			<div class="header-container">
+				<div class="logo">
+					<img src="logo.png" alt="Logo VP Tours">
+				</div>
+
+				<nav>
+					<ul class="menu">
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="propos.html">À propos</a></li>
+						<li><a href="synthese.html">Favoris</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+
+		<section class="contenu reservation-form">
+			<h2 class="titre">Réserver votre voyage</h2>
+
+			<form>
+				<label>Nom :</label>
+				<input type="text" placeholder="Votre nom" required>
+
+				<label>Prénom :</label>
+				<input type="text" placeholder="Votre prénom" required>
+
+				<label>Email :</label>
+				<input type="email" placeholder="Votre email" required>
+
+				<label>Destination :</label>
+				<select required>
+					<option value=""> Choisissez une destination </option>
+					<option>Château de Shuri (Japon)</option>
+					<option>Skógafoss (Islande)</option>
+					<option>Chefchaouen (Maroc)</option>
+				</select>
+
+				<label>Date de départ :</label>
+				<input type="date" required>
+
+				<label>Nombre de personnes :</label>
+				<input type="number" min="1" max="10"  placeholder="1" required>
+
+				<label>Message :</label>
+				<textarea></textarea>
+
+				<button type="submit">Valider la réservation</button>
+			</form>
+		</section>
+
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer-container">
+
+			
+			<div class="footer-column">
+				<h3>Liens utiles</h3>
+				<ul class="footer-links">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="propos.html">À propos</a></li>
+					<li><a href="synthese.html">Favoris</a></li>
+				</ul>
+			</div>
+
+			
+			<div class="footer-column">
+				<h3>Restez informé</h3>
+				<p>Recevez nos offres et destinations</p>
+
+				<form class="newsletter">
+					<input type="email" placeholder="Votre email">
+					<button type="submit">S’inscrire</button>
+				</form>
+			</div>
+
+			
+			<div class="footer-column">
+				<h3>Contact</h3>
+				<p>vptours@gmail.com</p>
+				<p>01 06 25 33 85</p>
+
+				<div class="socials">
+					<a href="#">Facebook</a>
+					<a href="#">Instagram</a>
+					<a href="#">Twitter</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<p>© 2025 VP Tours — Tous droits réservés</p>
+			<p>Site réalisé par WorldSeek pour VP Tours</p>
+			<img src="worldseek.png" alt="Logo Worldseek">
+		</div>
+	</footer>
+
+</body>
+</html>
